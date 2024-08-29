@@ -52,7 +52,7 @@
     width: 200px;
     height: 250px;
     top: 10%;
-    left: calc(50% - 100px);
+    left: calc(50% - 500px);
     transform-style: preserve-3d;
     transform: perspective(1000px);
     animation: autoRun 20s linear infinite;
@@ -129,6 +129,8 @@
         width: 160px;
         height: 200px;
         left: calc(50% - 80px);
+        position: relative; /* Ensure the element is positioned relatively */
+        top: 20px; /* Adjust the value as needed */
     }
     .banner .slider .item{
         transform: 
