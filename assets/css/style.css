@@ -49,8 +49,8 @@
 }
 .banner .slider{
     position: absolute;
-    width: 500px;
-    height: 550px;
+    width: 200px;
+    height: 250px;
     top: 40%;
     left: calc(50% - 100px);
     transform-style: preserve-3d;
@@ -94,7 +94,7 @@
 }
 .banner .content h1{
     font-family: 'ICA Rubrik';
-    font-size: 16em;
+    font-size: 9em;
     line-height: 1em;
     color: #25283B;
     position: relative;
