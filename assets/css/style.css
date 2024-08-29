@@ -124,13 +124,14 @@
         text-decoration: none;
         display: inline-block;
 }
-@media screen and (max-width: 1023px) {
+ 
+@media screen and (max-width: 1400px) {
     .banner .slider{
         width: 160px;
         height: 200px;
         left: calc(50% - 80px);
         position: relative; /* Ensure the element is positioned relatively */
-        top: 20px; /* Adjust the value as needed */
+        top: 200px; /* Adjust the value as needed */
     }
     .banner .slider .item{
         transform: 
@@ -145,11 +146,13 @@
     }
     
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 800px) {
     .banner .slider{
         width: 100px;
         height: 150px;
         left: calc(50% - 50px);
+        position: relative; /* Ensure the element is positioned relatively */
+        top: 180px; /* Adjust the value as needed */
     }
     .banner .slider .item{
         transform: 
