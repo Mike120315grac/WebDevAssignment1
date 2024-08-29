@@ -10,7 +10,7 @@
 }
 
 .banner .slider{
-    position: absolute;
+    position: relative;
     width: 100px;
     height: 150px;
     top: 50%;
@@ -40,6 +40,8 @@
     height: 100%;
     object-fit: cover;
 }
+
+/*Tittle and Button Below*/
 .banner .content{
     position: absolute;
     bottom: 0;
