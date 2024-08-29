@@ -20,6 +20,7 @@
     animation: autoRun 20s linear infinite;
     z-index: 2;
 }
+
 @keyframes autoRun{
     from{
         transform: perspective(1000px) rotateX(-16deg) rotateY(0deg);
@@ -33,7 +34,7 @@
     inset: 0 0 0 0;
     transform: 
         rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
-        translateZ(350px);
+        translateZ(450px);
 }
 .banner .slider .item img{
     width: 100%;
