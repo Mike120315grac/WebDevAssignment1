@@ -1,56 +1,75 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Myth Finder</title>
-  <!--custom css link -->
-  <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #D2D2D2;
+            background-image:
+            repeating-linear-gradient(
+                to right, transparent 0 100px,
+                #25283b22 100px 101px
+            ),
+            repeating-linear-gradient(
+                to bottom, transparent 0 100px,
+                #25283b22 100px 101px
+            );
+        }
+        
+        body::before{
+            position: absolute;
+            width: min(1400px, 90vw);
+            top: 10%;
+            left: 50%;
+            height: 90%;
+            transform: translateX(-50%);
+            content: '';
+            background-image: url(images/bg.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: top center;
+            pointer-events: none;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <header class="header">
-    <a href="#" class="logo">Myth Database</a>
-    <i class="ri-menu-line" id="menu-icon"></i>
-    <nav class="navbar">
-    <a href="#home" class="active">Home</a>
-    <a href="#about">About</a>
-    <a href="#services">Services</a>
-    <a href="#skills">Skills</a>
-    <a href="#portfolio">Portfolio</a>
-    <a href="#contact">Contact</a>
-    </nav>
-  </header>
 
-  
     <div class="banner">
-      <div class="slider" style="--quantity: 10">
-        <div class="item" style="--position: 1"><img src="assets/images/banner/img_0.jpeg" alt="Sun Wukong"></div>
-        <div class="item" style="--position: 2"><img src="assets/images/banner/img_1.png" alt="Sun Wukong"></div>
-        <div class="item" style="--position: 3"><img src="assets/images/banner/img_2.jpeg" alt="Sun Wukong"></div>
-        <div class="item" style="--position: 4"><img src="assets/images/banner/img_3.jpeg" alt="Sun Wukong"></div>
-        <div class="item" style="--position: 5"><img src="assets/images/banner/img_4.jpeg" alt="Sun Wukong"></div>
-        <div class="item" style="--position: 6"><img src="assets/images/banner/img_5.jpeg" alt="Sun Wukong"></div>
-        <div class="item" style="--position: 7"><img src="assets/images/banner/img_6.jpeg" alt="Sun Wukong"></div>
-        <div class="item" style="--position: 8"><img src="assets/images/banner/img_7.jpeg" alt="Sun Wukong"></div>
-        <div class="item" style="--position: 9"><img src="assets/images/banner/img_8.jpeg" alt="Sun Wukong"></div>
-        <div class="item" style="--position: 10"><img src="assets/images/banner/img_9.jpeg" alt="Sun Wukong"></div>
-
-      </div>
+        <div class="slider" style="--quantity: 10">
+            <div class="item" style="--position: 1"><img src="images/dragon_1.jpg" alt=""></div>
+            <div class="item" style="--position: 2"><img src="images/dragon_2.jpg" alt=""></div>
+            <div class="item" style="--position: 3"><img src="images/dragon_3.jpg" alt=""></div>
+            <div class="item" style="--position: 4"><img src="images/dragon_4.jpg" alt=""></div>
+            <div class="item" style="--position: 5"><img src="images/dragon_5.jpg" alt=""></div>
+            <div class="item" style="--position: 6"><img src="images/dragon_6.jpg" alt=""></div>
+            <div class="item" style="--position: 7"><img src="images/dragon_7.jpg" alt=""></div>
+            <div class="item" style="--position: 8"><img src="images/dragon_8.jpg" alt=""></div>
+            <div class="item" style="--position: 9"><img src="images/dragon_9.jpg" alt=""></div>
+            <div class="item" style="--position: 10"><img src="images/dragon_10.jpg" alt=""></div>
+        </div>
+        <div class="content">
+            <h1 data-content="CSS ONLY">
+                CSS ONLY
+            </h1>
+            <div class="author">
+                <h2>LUN DEV</h2>
+                <p><b>Web Design</b></p>
+                <p>
+                    Subscribe to the channel to watch many interesting videos
+                </p>
+            </div>
+            <div class="model"></div>
+        </div>
     </div>
-  
-
-  <section class="about" id="about"></section>
-  <section class="services" id="services"></section>
-  <section class="skills" id="skills"></section>
-  <section class="portfolio" id="portfolio"></section>
-  <section class="contact" id="contact"></section>
-
-  
-  <!--Assets JS Link-->
-  <script src="assets/js/script.js"></script>
     
 </body>
-
 </html>
